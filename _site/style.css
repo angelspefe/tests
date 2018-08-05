@@ -1,14 +1,68 @@
-/*----------- CSS RESET -----------*/
-
-* {
-  margin: 0;
-  padding: 0;
-  max-width: 100%;
-  box-sizing: border-box;
+.padded-5 {
+  padding:5%;
 }
 
-/*----------- Typography -----------*/
+.align-center {
+  text-align: center;
+}
 
-h4, p {
-  color: black;
+body {
+  background-color: #F7F5F0;
+}
+
+h2, h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  color: #546461;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+h5 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  color: #546461;
+  text-transform: none;
+  font-size: 0.9rem;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #546461;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.testimonial-section {
+  background-image: url('/images/quote.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.testimonial-quote {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 8rem;
++
+}
+
+.testimonial-quote,
+.testimonial-client,
+.testimonial-country, {
+  margin:auto;
+}
+
+.gallery img {
+  padding: 2%;
+  width:100%;
+}
+
+[class*=grid-], [class*=grid_], [class~=grid], [class*=col-], [class*=col_], [class~=col] {
+  margin: 0 !important;
+  padding: 0;
+  box-sizing: border-box;
 }
