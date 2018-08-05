@@ -21,18 +21,26 @@ h2, h4 {
 h5 {
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
-  color: #546461;
   text-transform: none;
   font-size: 0.9rem;
 }
 
 p {
   font-family: 'Raleway', sans-serif;
-  color: #546461;
   padding-bottom: 1rem;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.5;
+  color: #546461;
+}
+
+h5, h4 {
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  color: #546461;
+
 }
 
 .testimonial-section {
