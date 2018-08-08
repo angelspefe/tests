@@ -74,3 +74,11 @@ h5, h4 {
   padding: 0;
   box-sizing: border-box;
 }
+
+
+
+/* MAGNIFIC POPUP GALLERY */
+
+.mfp-counter, .mfp-s-loading {
+  display:none;
+  }
